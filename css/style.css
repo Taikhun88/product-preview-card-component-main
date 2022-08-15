@@ -1,0 +1,118 @@
+:root {
+    --main-color: hsl(30, 38%, 92%);
+    --second-color: hsl(158, 36%, 37%);
+    --dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+  }
+body {
+    background-color: var(--main-color);
+    font-family: "Montserrat", "Fraunces", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-color: white;
+    font-family: "Montserrat", "Fraunces", sans-serif;
+    width: fit-content;
+    max-width: 280px;
+    margin: 5% auto;
+    border-radius: 15px;
+}
+
+.illustration-card {
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.legend-img {
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--second-color);
+    margin-top: 10px;
+}
+
+.card-details-container {
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.card-details-title {
+    font-family: "Fraunces";
+    color: var(--dark-blue);
+    font-weight: 700;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.card-details {
+    color: var(--dark-blue);
+    word-break: break-word;
+    font-family: "Fraunces";
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 1.5;
+    opacity: 0.6;
+}
+
+.card-price {
+    margin-bottom: 14px;
+}
+
+.card-price span {
+    margin-right: 15px;
+}
+
+.card-current-price {
+    font-family: "Montserrat";
+    color: var(--second-color);
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.card-initial-price {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    text-decoration: line-through;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.card-btn {
+    width: 100%;
+    margin: auto;
+    padding: 10px 10px;
+    background-color: var(--second-color);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn > div {
+    display: flex;
+}
+
+.card-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+}
+
+.card-cart-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    text-align: center;
+}
